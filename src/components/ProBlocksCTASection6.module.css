@@ -1,0 +1,92 @@
+.featureRichLayoutThat {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+}
+
+.addAConcise {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
+.proBlocksSectionTitle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 576px;
+}
+
+.button1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.button {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  background-color: #fafafa;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  box-sizing: border-box;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #171717;
+}
+
+.flex {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+  max-width: 1280px;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 100%;
+  border-radius: 14px;
+  background-color: #341539;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 64px;
+  box-sizing: border-box;
+  max-width: 1280px;
+}
+
+.proBlocksCtaSection6 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #fafafa;
+  font-family: '__nextjs-Geist';
+}

@@ -1,0 +1,126 @@
+.tagline {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.proBlocksTagline {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearSteps {
+  margin: 0;
+
+}
+
+.featureRichLayoutThatContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 36px;
+  line-height: 40px;
+  color: #0a0a0a;
+  text-align: center;
+  font-family: '__nextjs-Geist';
+}
+
+.proBlocksSectionTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 576px;
+
+}
+
+.iconWrapper {
+  width: 40px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.subheading {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.shortlyDescribeHow {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  color: #737373;
+}
+
+.flexVertical1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.flexVertical {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.flex {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: 16px;
+  color: #0a0a0a;
+}
+
+.div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 24px;
+  box-sizing: border-box;
+  max-width: 1280px;
+}
+
+.proBlocksFeatureSection {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 96px 0px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #737373;
+  font-family: '__nextjs-Geist';
+}

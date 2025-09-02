@@ -1,0 +1,203 @@
+.yourBestPeople {
+  color: #0a0a0a;
+  align-self: stretch;
+  font-family: __nextjs-Geist;
+  font-size: 36px;
+  line-height: 40px;
+  position: relative;
+}
+
+.theBiggestBarrier {
+  width: 598px;
+  position: relative;
+  font-size: 18px;
+  line-height: 28px;
+  color: #717182;
+  display: inline-block;
+}
+
+.proBlocksSectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.addAConcise {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  color: #717182;
+  line-height: 24px;
+}
+
+
+.flexVertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 872px;
+}
+
+.svgviewerOutput21Icon {
+  width: 48px;
+  position: relative;
+  border-radius: 8px;
+  height: 48px;
+}
+
+.heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+}
+
+.text {
+
+  position: relative;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 500;
+  color: #717182;
+  display: inline-block;
+}
+
+.content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.contentTop {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.tag1 {
+  position: relative;
+  font-weight: 600;
+}
+
+.tag {
+  align-self: stretch;
+  border-radius: 12px;
+  background-color: #f3e5f5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5px 7px;
+  text-align: left;
+  font-size: 12.25px;
+  color: #8b4097;
+}
+
+.content {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px 32px;
+  box-sizing: border-box;
+  gap: 24px;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #faf8ff;
+  border: 1px solid #f2ecff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: -webkit-fill-available;
+}
+
+.heading2 {
+  position: relative;
+  line-height: 130%;
+}
+
+.row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+  font-size: 16px;
+  color: #475467;
+}
+
+.aspectRatioIcon {
+  width: 608px;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.acrossEveryIndustry {
+  width: 598px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+}
+
+.aspectRatioParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22px;
+  font-size: 18px;
+  color: #717182;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 24px;
+  box-sizing: border-box;
+  gap: 64px;
+  max-width: 1280px;
+}
+
+
+
+.proBlocksHeroSection10 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 96px 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 54px;
+  color: #0a0a0a;
+  font-family: 'Inter';
+}
