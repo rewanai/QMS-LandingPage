@@ -4,12 +4,12 @@ import { ProBlocksFooter7 } from "@/components/footer-2";
 import { ProBlocksPricingSection4 } from "@/components/ContactSection";
 import { Hero218 } from '@/components/Hero218';
 import { FeatureSection2 } from '@/components/FeatureSection2';
-import { FeatureSection22 } from '@/components/FeatureSection2 copy';
+import { FeatureSection22 } from '@/components/FeatureSection2Copy';
 import Hero2Section from "@/components/Hero2Section";        // ✅ keep only the default import
 import IntegrationSection from "@/components/IntegrationSection"; // ✅ add this
 import Feature3Section from "@/components/Feature3Section";
 import Feature9Section from "@/components/Feature9Section";
-import Benefit1st from "@/components/Benefit1st";
+
 
 
 
@@ -19,7 +19,6 @@ export default function Home() {
       <Navbar5 />
       <Hero218 />
       <IntegrationSection />
-
       <Hero2Section />
       <Feature3Section />
       <Feature9Section />

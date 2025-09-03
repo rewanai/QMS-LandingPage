@@ -1,4 +1,7 @@
+'use client';
+
 import { FunctionComponent } from 'react';
+import Image from 'next/image'; // Import the Image component
 import styles from './ProBlocksFeatureSection99.module.css';
 
 const ProBlocksFeatureSection9Mobile: FunctionComponent = () => {
@@ -15,13 +18,12 @@ const ProBlocksFeatureSection9Mobile: FunctionComponent = () => {
               <p className={styles.clearSteps}>Every Module, Meticulously</p>
               <p className={styles.clearSteps}>Mapped to ISO 9001:2015</p>
             </b>
-
           </div>
 
           {/* Mobile Feature Stack */}
           <div className={styles.flexVertical}>
             <div className={styles.proBlocksFeatureSection_flexVertical}>
-              <img className={styles.iconWrapper} alt="" src="Icon Wrapper 2.svg" />
+              <Image className={styles.iconWrapper} alt="Foundation icon" src="/qms/Icon Wrapper 2.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>{`Build a Strong Foundation`}</div>
                 <div className={styles.shortlyDescribeHow}>
@@ -29,9 +31,8 @@ const ProBlocksFeatureSection9Mobile: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-
             <div className={styles.proBlocksFeatureSection_flexVertical}>
-              <img className={styles.iconWrapper} alt="" src="Icon Wrapper-1.svg" />
+              <Image className={styles.iconWrapper} alt="Control icon" src="/qms/Icon Wrapper-1.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>Control, Train & Support</div>
                 <div className={styles.shortlyDescribeHow}>
@@ -39,9 +40,8 @@ const ProBlocksFeatureSection9Mobile: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-
             <div className={styles.proBlocksFeatureSection_flexVertical}>
-              <img className={styles.iconWrapper} alt="" src="Icon Wrapper-2.svg" />
+              <Image className={styles.iconWrapper} alt="Evaluation icon" src="/qms/Icon Wrapper-2.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>{`Evaluate & Improve Continuously`}</div>
                 <div className={styles.shortlyDescribeHow}>
@@ -49,9 +49,8 @@ const ProBlocksFeatureSection9Mobile: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-
             <div className={styles.proBlocksFeatureSection_flexVertical}>
-              <img className={styles.iconWrapper} alt="" src="Icon Wrapper-3.svg" />
+              <Image className={styles.iconWrapper} alt="Execution icon" src="/qms/Icon Wrapper-3.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>{`Execute with Accountability`}</div>
                 <div className={styles.shortlyDescribeHow}>

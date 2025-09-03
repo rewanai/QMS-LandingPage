@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import { MenuIcon } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
@@ -21,7 +22,7 @@ const Navbar5 = () => {
             <div className="w-full max-w-7xl mx-auto px-4"> {/* <= hard caps at 1280px */}
                 <nav className="flex items-center justify-between">
                     <a href="" className="flex items-center gap-2">
-                        <img src="2.png" className="h-8" alt="Navbar" />
+                        <Image src="/qms/2 5.svg" className="h-8" alt="Navbar logo" width={65} height={2} />
                     </a>
 
                     <NavigationMenu className="hidden lg:block">
@@ -77,7 +78,7 @@ const Navbar5 = () => {
                             <SheetHeader>
                                 <SheetTitle>
                                     <a href="" className="flex items-center gap-2">
-                                        <img src="2.png" className="h-8" alt="Shadcn UI Navbar" />
+                                        <Image src="/qms/2.png" className="h-8" alt="Shadcn UI Navbar" width={32} height={32} />
                                     </a>
                                 </SheetTitle>
                             </SheetHeader>

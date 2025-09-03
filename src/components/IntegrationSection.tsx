@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect, type FunctionComponent } from 'react';
-import IntegrationMobile from './Integration4Mobile';
-import IntegrationDesktop from './IntegrationDesktop';
+import IntegrationMobile from './Integration4Mobile'
+import IntegrationDesktop from './IntegrationDesktop'
 
 const IntegrationSection: FunctionComponent = () => {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -13,8 +13,8 @@ const IntegrationSection: FunctionComponent = () => {
     if (typeof window !== 'undefined') {
       setWindowWidth(window.innerWidth);
       const handleResize = () => setWindowWidth(window.innerWidth);
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
+      window.addEventListener(' resize ', handleResize);
+      return () => window.removeEventListener(' resize ', handleResize);
     }
   }, []); // Run only once after the component mounts
 

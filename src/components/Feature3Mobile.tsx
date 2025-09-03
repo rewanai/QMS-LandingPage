@@ -1,4 +1,7 @@
+'use client';
+
 import { FunctionComponent } from 'react';
+import Image from 'next/image'; // Import the Image component
 import styles from './ProBlocksFeatureSection5.module.css';
 
 const ProBlocksFeatureSection5: FunctionComponent = () => {
@@ -23,7 +26,7 @@ const ProBlocksFeatureSection5: FunctionComponent = () => {
           {/* Features Stack */}
           <div className={styles.flexVertical}>
             <div className={styles.card}>
-              <img className={styles.iconWrapper} alt="" src="Icon Wrapper.svg" />
+              <Image className={styles.iconWrapper} alt="AI icon" src="/qms/Icon Wrapper.svg" width={48} height={48} />
               <div className={styles.proBlocksFeatureSection_flexVertical}>
                 <div className={styles.subheading}>AI-Powered Compliance</div>
                 <div className={styles.harnessAdvancedAlgorithms}>
@@ -32,7 +35,7 @@ const ProBlocksFeatureSection5: FunctionComponent = () => {
               </div>
             </div>
             <div className={styles.card}>
-              <img className={styles.iconWrapper} alt="" src="IconWrapper2.svg" />
+              <Image className={styles.iconWrapper} alt="Reliability icon" src="/qms/IconWrapper2.svg" width={48} height={48} />
               <div className={styles.proBlocksFeatureSection_flexVertical}>
                 <div className={styles.subheading}>Precision & Reliability</div>
                 <div className={styles.harnessAdvancedAlgorithms}>
@@ -41,7 +44,7 @@ const ProBlocksFeatureSection5: FunctionComponent = () => {
               </div>
             </div>
             <div className={styles.card}>
-              <img className={styles.iconWrapper} alt="" src="IconWrapper3.svg" />
+              <Image className={styles.iconWrapper} alt="Scalability icon" src="/qms/IconWrapper3.svg" width={48} height={48} />
               <div className={styles.proBlocksFeatureSection_flexVertical}>
                 <div className={styles.subheading}>Fully Scalable</div>
                 <div className={styles.harnessAdvancedAlgorithms}>
@@ -61,15 +64,15 @@ const ProBlocksFeatureSection5: FunctionComponent = () => {
                 </div>
                 <div className={styles.flexVertical3}>
                   <div className={styles.flex1}>
-                    <img className={styles.iconCirclecheckbig} alt="" src="CircleCheckBig.svg" />
+                    <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
                     <div className={styles.subheading3}>Streamline every ISO clause with ease</div>
                   </div>
                   <div className={styles.flex1}>
-                    <img className={styles.iconCirclecheckbig} alt="" src="CircleCheckBig.svg" />
+                    <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
                     <div className={styles.subheading3}>AI-powered agent for real-time guidance</div>
                   </div>
                   <div className={styles.flex1}>
-                    <img className={styles.iconCirclecheckbig} alt="" src="CircleCheckBig.svg" />
+                    <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
                     <div className={styles.subheading3}>Achieve complete, audit-ready compliance</div>
                   </div>
                 </div>
@@ -101,7 +104,6 @@ const ProBlocksFeatureSection5: FunctionComponent = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

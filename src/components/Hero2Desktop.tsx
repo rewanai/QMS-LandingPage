@@ -1,7 +1,8 @@
-import { type FunctionComponent } from 'react';
-import styles from './ProBlocksHeroSection10.module.css';
-import Hero2Section from './Hero2Section';
+'use client';
 
+import { type FunctionComponent } from 'react';
+import Image from 'next/image';
+import styles from './ProBlocksHeroSection10.module.css';
 
 const Hero2Desktop: FunctionComponent = () => {
   return (
@@ -13,7 +14,7 @@ const Hero2Desktop: FunctionComponent = () => {
               <b className={styles.yourBestPeople}>The Solution: A Single Source of Truth for Quality</b>
               <div className={styles.addAConcise}>
                 Rewan QMS replaces chaos with clarity. We have meticulously engineered a single, unified platform that addresses every core requirement of the ISO 9001:2015 standard in an intuitive and interconnected way.
-            </div>
+              </div>
             </div>
           </div>
         </div>
@@ -21,7 +22,7 @@ const Hero2Desktop: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <img className={styles.svgviewerOutput21Icon} alt="" src="/uni.png" />
+                <Image className={styles.svgviewerOutput21Icon} alt="Unified icon" src="/qms/uni.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Unified & Integrated</b>
                   <div className={styles.text}>All your QMS modules—from Audits to Management Reviews—are in one place, providing a holistic view of your quality performance
@@ -33,7 +34,7 @@ const Hero2Desktop: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <img className={styles.svgviewerOutput21Icon} alt="" src="/Int.png" />
+                <Image className={styles.svgviewerOutput21Icon} alt="Intelligent icon" src="/qms/Int.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Intelligently Automated</b>
                   <div className={styles.text}>Drastically reduce manual effort with our Genesis AI agent for document creation and streamlined workflows for approvals and tasks
@@ -45,7 +46,7 @@ const Hero2Desktop: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <img className={styles.svgviewerOutput21Icon} alt="" src="/Alw.png" />
+                <Image className={styles.svgviewerOutput21Icon} alt="Always audit-ready icon" src="/qms/Alw.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Always Audit-Ready</b>
                   <div className={styles.text}>With centralized records, complete version history, and clear audit trails, you can face any internal or external audit with total confidence
@@ -53,10 +54,11 @@ const Hero2Desktop: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-          </div> <div className={styles.card}>
+          </div>
+          <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <img className={styles.svgviewerOutput21Icon} alt="" src="/Fos.png" />
+                <Image className={styles.svgviewerOutput21Icon} alt="Collaboration icon" src="/qms/Fos.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Fosters Collaboration</b>
                   <div className={styles.text}>With clear tasks, intuitive documentation, and accessible QMS processes, every team member actively supports your quality journey.
@@ -66,9 +68,9 @@ const Hero2Desktop: FunctionComponent = () => {
             </div>
           </div>
         </div>
-
       </div>
-    </div>);
+    </div>
+  );
 };
 
 export default Hero2Desktop;

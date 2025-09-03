@@ -2,8 +2,8 @@
 
 import { useState, useEffect, type FunctionComponent } from 'react';
 // Use named or default import depending on how you export in Feature3.tsx
-import { ProBlocksFeatureSection3 } from './Feature3';
-import { ProBlocksFeatureSection5 } from './Feature3Mobile';
+import { ProBlocksFeatureSection3 } from './Feature3'
+import { ProBlocksFeatureSection5 } from './Feature3Mobile'
 
 const Feature3Section: FunctionComponent = () => {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -13,8 +13,8 @@ const Feature3Section: FunctionComponent = () => {
     if (typeof window !== 'undefined') {
       setWindowWidth(window.innerWidth);
       const handleResize = () => setWindowWidth(window.innerWidth);
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
+      window.addEventListener(' resize ', handleResize);
+      return () => window.removeEventListener(' resize ', handleResize);
     }
   }, []);
 

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  basePath: "/qms",
+  basePath: "/QMS-LandingPage",
+  output: 'export',
   reactStrictMode: true,
   images: {
     unoptimized: true,

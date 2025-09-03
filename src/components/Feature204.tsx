@@ -9,7 +9,7 @@ const Feature204 = () => {
         <div className="flex flex-col items-center gap-10 md:gap-24 lg:flex-row lg:items-stretch">
           <div className="">
             <img
-              src="hero.png"
+              src="/qms/hero.png"
               alt="placeholder"
               className="rounded-2xl"
             />

@@ -10,7 +10,9 @@
   align-self: stretch;
   position: relative;
   line-height: 24px;
-  font-family: '__nextjs-Geist';
+  font-family: '
+__nextjs-Geist'
+;
 }
 
 .flex1 {
@@ -180,5 +182,7 @@
   text-align: left;
   font-size: 16px;
   color: #fafafa;
-  font-family: '__nextjs-Geist';
+  font-family: '
+__nextjs-Geist'
+;
 }

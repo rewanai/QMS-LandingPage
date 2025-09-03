@@ -1,6 +1,7 @@
-'use client';
+"use client";
 
 import { FunctionComponent, useState } from 'react';
+import Image from 'next/image'; // Import the Image component
 
 import styles from './ContactSection12.module.css';
 
@@ -83,7 +84,7 @@ const ProBlocksPricingSection4: FunctionComponent = () => {
           <div className={styles.proBlocksSectionTitle}>
             <b className={styles.readyToBuild}>Ready to Build Your Digital Workforce?</b>
             <div className={styles.letsIdentifyYour}>
-              Let's identify your top automation opportunities. Schedule a complimentary, no-obligation audit with our specialists here in Salalah.
+              Let&apos;s identify your top automation opportunities. Schedule a complimentary, no-obligation audit with our specialists here in Salalah.
             </div>
           </div>
           <div className={styles.flexVertical}>
@@ -169,7 +170,7 @@ const ProBlocksPricingSection4: FunctionComponent = () => {
                   </button>
                 </form>
                 <div className={styles.subheading1}>
-                  We'll respond within 24 hours to schedule your personalized consultation.
+                  We&apos;ll respond within 24 hours to schedule your personalized consultation.
                 </div>
               </div>
 
@@ -181,19 +182,19 @@ const ProBlocksPricingSection4: FunctionComponent = () => {
                   </div>
                   <div className={styles.flexVertical1}>
                     <div className={styles.flex1}>
-                      <img className={styles.iconCirclecheckbig} alt="" src="/CircleCheckBig.svg" />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading3}>Pre-configured for common business roles</div>
                     </div>
                     <div className={styles.flex1}>
-                      <img className={styles.iconCirclecheckbig} alt="" src="/CircleCheckBig.svg" />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading3}>Rapid deployment and activation</div>
                     </div>
                     <div className={styles.flex1}>
-                      <img className={styles.iconCirclecheckbig} alt="" src="/CircleCheckBig.svg" />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading3}>24/7 monitoring and management</div>
                     </div>
                     <div className={styles.flex1}>
-                      <img className={styles.iconCirclecheckbig} alt="" src="/CircleCheckBig.svg" />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading3}>Performance analytics and reporting</div>
                     </div>
                   </div>
@@ -204,15 +205,15 @@ const ProBlocksPricingSection4: FunctionComponent = () => {
                   </div>
                   <div className={styles.flexVertical2}>
                     <div className={styles.flex1}>
-                      <img className={styles.vuesaxlinearlocationIcon} alt="" src="/location.svg" />
+                      <Image className={styles.vuesaxlinearlocationIcon} alt="Location icon" src="/qms/location.svg" width={24} height={24} />
                       <div className={styles.subheading3}>Salalah, Sultanate of Oman</div>
                     </div>
                     <div className={styles.flex1}>
-                      <img className={styles.phoneIcon} alt="" src="/Phone.svg" />
+                      <Image className={styles.phoneIcon} alt="Phone icon" src="/qms/Phone.svg" width={24} height={24} />
                       <div className={styles.subheading3}>+968 7662 6636</div>
                     </div>
                     <div className={styles.flex1}>
-                      <img className={styles.iconMail} alt="" src="/Mail.svg" />
+                      <Image className={styles.iconMail} alt="Mail icon" src="/qms/Mail.svg" width={24} height={24} />
                       <div className={styles.subheading3}>info@rewan.com</div>
                     </div>
                   </div>

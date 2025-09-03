@@ -1994,14 +1994,18 @@ utilities;
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
-    font-family: 'Inter';
+    font-family: '
+Inter'
+;
     color: #341539;
   }
 
   .font-boldd {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
-    font-family: 'Shiba';
+    font-family: '
+Shiba'
+;
     color: #341539;
   }
 
@@ -3434,7 +3438,9 @@ utilities;
   .md\:text-5xlM {
     @media (width >=48rem) {
       font-size: var(--text-5xl);
-      font-family: 'Shiba';
+      font-family: '
+Shiba'
+;
       color: #341539;
       font-weight: 500;
       line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -3479,7 +3485,9 @@ utilities;
   .md\:text-lgM {
     @media (width >=48rem) {
       font-size: var(--text-lg);
-      font-family: 'Shiba';
+      font-family: '
+Shiba'
+;
       font-weight: 500;
       line-height: var(--tw-leading, var(--text-lg--line-height));
     }
@@ -3879,15 +3887,15 @@ utilities;
 
 
 
-  .\[\&_svg\:not\(\[class\*\=\'size-\'\]\)\]\:size-4 {
-    & svg:not([class*='size-']) {
+  .\[\&_svg\:not\(\[class\*\=\' size-\' \]\)\]\:size-4 {
+    & svg: not([class*=' size-']) {
       width: calc(var(--spacing) * 4);
       height: calc(var(--spacing) * 4);
     }
   }
 
-  .\[\&_svg\:not\(\[class\*\=\'text-\'\]\)\]\:text-muted-foreground {
-    & svg:not([class*='text-']) {
+  .\[\&_svg\:not\(\[class\*\=\' text-\' \]\)\]\:text-muted-foreground {
+    & svg: not([class*=' text-']) {
       color: var(--muted-foreground);
     }
   }

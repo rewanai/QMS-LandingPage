@@ -1,4 +1,7 @@
+'use client';
+
 import { type FunctionComponent } from 'react';
+import Image from 'next/image';
 import styles from './ProBlocksGallerySection4.module.css';
 
 const Hero2Mobile: FunctionComponent = () => {
@@ -18,7 +21,7 @@ const Hero2Mobile: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <img className={styles.svgviewerOutput21Icon} alt="" src="/uni.png" />
+                <Image className={styles.svgviewerOutput21Icon} alt="Unified icon" src="/qms/uni.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Unified & Integrated</b>
                   <div className={styles.text}>
@@ -32,7 +35,7 @@ const Hero2Mobile: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <img className={styles.svgviewerOutput21Icon} alt="" src="/Int.png" />
+                <Image className={styles.svgviewerOutput21Icon} alt="Intelligently automated icon" src="/qms/Int.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Intelligently Automated</b>
                   <div className={styles.text}>
@@ -46,7 +49,7 @@ const Hero2Mobile: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <img className={styles.svgviewerOutput21Icon} alt="" src="/Alw.png" />
+                <Image className={styles.svgviewerOutput21Icon} alt="Always audit-ready icon" src="/qms/Alw.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Always Audit-Ready</b>
                   <div className={styles.text}>
@@ -60,7 +63,7 @@ const Hero2Mobile: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <img className={styles.svgviewerOutput21Icon} alt="" src="/Fos.png" />
+                <Image className={styles.svgviewerOutput21Icon} alt="Fosters collaboration icon" src="/qms/Fos.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Fosters Collaboration</b>
                   <div className={styles.text}>

@@ -16,7 +16,9 @@
   align-self: stretch;
   position: relative;
   font-size: 41px;
-  font-family: 'Inter';
+  font-family: '
+Inter'
+;
   line-height: 40px;
   color: #0a0a0a;
 }
@@ -148,5 +150,7 @@
   text-align: left;
   font-size: 14px;
   color: #8b4097;
-  font-family: 'Inter';
+  font-family: '
+Inter'
+;
 }

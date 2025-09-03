@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react';
-import styles from './ProBlocksCTASection6.module.css';
+import styles from './ProBlocksCTASection6.module.css'
 
 
 const ProBlocksCTASection6: FunctionComponent = () => {

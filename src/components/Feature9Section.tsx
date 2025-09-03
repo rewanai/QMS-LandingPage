@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect, type FunctionComponent } from 'react';
-import ProBlocksFeatureSection9 from './Feature9';          // Desktop
-import ProBlocksFeatureSection9Mobile from './Feature9Mobile'; // Mobile
+import ProBlocksFeatureSection9 from './Feature9'
+import ProBlocksFeatureSection9Mobile from './Feature9Mobile'
 
 const Feature9Section: FunctionComponent = () => {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -12,8 +12,8 @@ const Feature9Section: FunctionComponent = () => {
     if (typeof window !== 'undefined') {
       setWindowWidth(window.innerWidth);
       const handleResize = () => setWindowWidth(window.innerWidth);
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
+      window.addEventListener(' resize ', handleResize);
+      return () => window.removeEventListener(' resize ', handleResize);
     }
   }, []);
 

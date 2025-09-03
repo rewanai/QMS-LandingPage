@@ -1,6 +1,7 @@
-"use client";
+'use client';
 import React from "react";
 import { FunctionComponent } from 'react';
+import Image from 'next/image';
 import styles from './ProBlocksFeatureSection52.module.css';
 
 const ProBlocksFeatureSection52: FunctionComponent = () => {
@@ -16,7 +17,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
             <b className={styles.featureRichLayoutThat}>Every Module, Aligned with ISO 9001:2015</b>
             <div className={styles.addAConciseContainer}>
               <p className={styles.poweredExclusivelyBy}>
-                Standard Rewan QMS isn't just a collection of features; it's a purpose-built ecosystem designed to address the specific requirements of each clause.
+                Standard Rewan QMS isn&apos;t just a collection of features; it&apos;s a purpose-built ecosystem designed to address the specific requirements of each clause.
                 Explore how our integrated modules provide the framework for a robust and effective Quality Management System.
               </p>
             </div>
@@ -25,7 +26,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
           {/* Feature Stack */}
           <div className={styles.flexVertical}>
             <div className={styles.flex}>
-              <img className={styles.iconWrapper} alt="" src="/Icon Wrapper.svg" />
+              <Image className={styles.iconWrapper} alt="Icon for strategic foundation" src="/qms/Icon Wrapper.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>Establish Strategic Foundation</div>
                 <div className={styles.advancedReasoningAnd}>
@@ -34,7 +35,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
               </div>
             </div>
             <div className={styles.flex}>
-              <img className={styles.iconWrapper} alt="" src="/Icon Wrapper.svg" />
+              <Image className={styles.iconWrapper} alt="Icon for control and awareness" src="/qms/Icon Wrapper.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>Ensure Control & Awareness</div>
                 <div className={styles.advancedReasoningAnd}>
@@ -43,7 +44,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
               </div>
             </div>
             <div className={styles.flex}>
-              <img className={styles.iconWrapper} alt="" src="/Icon Wrapper.svg" />
+              <Image className={styles.iconWrapper} alt="Icon for continuous improvement" src="/qms/Icon Wrapper.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>Measure, Analyze, Improve</div>
                 <div className={styles.advancedReasoningAnd}>
@@ -52,7 +53,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
               </div>
             </div>
             <div className={styles.flex}>
-              <img className={styles.iconWrapper} alt="" src="/Icon Wrapper.svg" />
+              <Image className={styles.iconWrapper} alt="Icon for action planning" src="/qms/Icon Wrapper.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>Turn Plans into Actions</div>
                 <div className={styles.advancedReasoningAnd}>
@@ -61,11 +62,9 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
               </div>
             </div>
           </div>
-
         </div>
-
         {/* Responsive Image */}
-        <img className={styles.aspectRatioIcon} alt="" src="/FEAT.png" />
+        <Image className={styles.aspectRatioIcon} alt="A screenshot of the feature page" src="/qms/FEAT.png" width={500} height={300} />
       </div>
     </div>
   );

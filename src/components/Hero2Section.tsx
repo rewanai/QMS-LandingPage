@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect, type FunctionComponent } from 'react';
-import Hero2Mobile from './Hero2Mobile';
-import Hero2Desktop from './Hero2Desktop';
+import Hero2Mobile from './Hero2Mobile'
+import Hero2Desktop from './Hero2Desktop'
 
 const Hero2Section: FunctionComponent = () => {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -12,8 +12,8 @@ const Hero2Section: FunctionComponent = () => {
     if (typeof window !== 'undefined') {
       setWindowWidth(window.innerWidth);
       const handleResize = () => setWindowWidth(window.innerWidth);
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
+      window.addEventListener(' resize ', handleResize);
+      return () => window.removeEventListener(' resize ', handleResize);
     }
   }, []);
 

@@ -1,7 +1,7 @@
 // src/app/layout.tsx
 import { Inter as FontSans } from "next/font/google";
 import { Anton } from "next/font/google"; // Import Anton font
-import '../assets/fonts/fonts.css';
+import '../assets/fonts/fonts.css'
 import "./globals.css";
 
 import { cn } from "@/lib/utils";
