@@ -182,19 +182,19 @@ const ProBlocksPricingSection4: FunctionComponent = () => {
                   </div>
                   <div className={styles.flexVertical1}>
                     <div className={styles.flex1}>
-                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading3}>Pre-configured for common business roles</div>
                     </div>
                     <div className={styles.flex1}>
-                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading3}>Rapid deployment and activation</div>
                     </div>
                     <div className={styles.flex1}>
-                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading3}>24/7 monitoring and management</div>
                     </div>
                     <div className={styles.flex1}>
-                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading3}>Performance analytics and reporting</div>
                     </div>
                   </div>
@@ -205,15 +205,15 @@ const ProBlocksPricingSection4: FunctionComponent = () => {
                   </div>
                   <div className={styles.flexVertical2}>
                     <div className={styles.flex1}>
-                      <Image className={styles.vuesaxlinearlocationIcon} alt="Location icon" src="/qms/location.svg" width={24} height={24} />
+                      <Image className={styles.vuesaxlinearlocationIcon} alt="Location icon" src="/location.svg" width={24} height={24} />
                       <div className={styles.subheading3}>Salalah, Sultanate of Oman</div>
                     </div>
                     <div className={styles.flex1}>
-                      <Image className={styles.phoneIcon} alt="Phone icon" src="/qms/Phone.svg" width={24} height={24} />
+                      <Image className={styles.phoneIcon} alt="Phone icon" src="/Phone.svg" width={24} height={24} />
                       <div className={styles.subheading3}>+968 7662 6636</div>
                     </div>
                     <div className={styles.flex1}>
-                      <Image className={styles.iconMail} alt="Mail icon" src="/qms/Mail.svg" width={24} height={24} />
+                      <Image className={styles.iconMail} alt="Mail icon" src="/Mail.svg" width={24} height={24} />
                       <div className={styles.subheading3}>info@rewan.com</div>
                     </div>
                   </div>

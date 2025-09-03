@@ -10,7 +10,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
     <div className={styles.proBlocksFeatureSection}>
       <div className={styles.container}>
         {/* Top Image */}
-        <Image className={styles.aspectRatioIcon} alt="Ava" src="/qms/Ava.png" width={500} height={300} />
+        <Image className={styles.aspectRatioIcon} alt="Ava" src="/Ava.png" width={500} height={300} />
 
         {/* Section Title & Description */}
         <div className={styles.div}>
@@ -31,7 +31,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
           {/* Feature Cards Stack */}
           <div className={styles.flexVertical}>
             <div className={styles.flex}>
-              <Image className={styles.iconWrapper} alt="Administrative overhead icon" src="/qms/Icon Wrapper.svg" width={48} height={48} />
+              <Image className={styles.iconWrapper} alt="Administrative overhead icon" src="/Icon Wrapper.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>Drastically Reduce Administrative Overhead</div>
                 <div className={styles.advancedReasoningAnd}>
@@ -41,7 +41,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
             </div>
 
             <div className={styles.flex}>
-              <Image className={styles.iconWrapper} alt="Audit-readiness icon" src="/qms/Icon Wrapper.svg" width={48} height={48} />
+              <Image className={styles.iconWrapper} alt="Audit-readiness icon" src="/Icon Wrapper.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>Achieve Perpetual Audit-Readiness</div>
                 <div className={styles.advancedReasoningAnd}>
@@ -51,7 +51,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
             </div>
 
             <div className={styles.flex}>
-              <Image className={styles.iconWrapper} alt="Continuous improvement icon" src="/qms/Icon Wrapper.svg" width={48} height={48} />
+              <Image className={styles.iconWrapper} alt="Continuous improvement icon" src="/Icon Wrapper.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>Drive Measurable, Continuous Improvement</div>
                 <div className={styles.advancedReasoningAnd}>
@@ -61,7 +61,7 @@ const ProBlocksFeatureSection52: FunctionComponent = () => {
             </div>
 
             <div className={styles.flex}>
-              <Image className={styles.iconWrapper} alt="Team empowerment icon" src="/qms/Icon Wrapper.svg" width={48} height={48} />
+              <Image className={styles.iconWrapper} alt="Team empowerment icon" src="/Icon Wrapper.svg" width={48} height={48} />
               <div className={styles.flexVertical1}>
                 <div className={styles.subheading}>Empower and Engage Your Entire Team</div>
                 <div className={styles.advancedReasoningAnd}>

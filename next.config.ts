@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/QMS-LandingPage",
   output: 'export',
+  trailingSlash: true,
+  assetPrefix: '/', // ✅ valid and works with next/font
   reactStrictMode: true,
   images: {
     unoptimized: true,

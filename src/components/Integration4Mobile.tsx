@@ -20,19 +20,19 @@ const Integration4Mobile: FunctionComponent = () => {
           {/* CARDS SECTION */}
           <div className={styles.flex}>
             <div className={styles.flex1}>
-              <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+              <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
               <div className={styles.subheading}>Simplified Document Control</div>
             </div>
             <div className={styles.flex1}>
-              <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+              <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
               <div className={styles.subheading}>Integrated Quality Systems</div>
             </div>
             <div className={styles.flex1}>
-              <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+              <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
               <div className={styles.subheading}>Reduced Consultant Dependency</div>
             </div>
             <div className={styles.flex1}>
-              <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+              <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
               <div className={styles.subheading}>Improved Team Engagement</div>
             </div>
           </div>

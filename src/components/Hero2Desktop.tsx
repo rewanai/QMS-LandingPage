@@ -22,7 +22,7 @@ const Hero2Desktop: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <Image className={styles.svgviewerOutput21Icon} alt="Unified icon" src="/qms/uni.png" width={48} height={48} />
+                <Image className={styles.svgviewerOutput21Icon} alt="Unified icon" src="/uni.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Unified & Integrated</b>
                   <div className={styles.text}>All your QMS modules—from Audits to Management Reviews—are in one place, providing a holistic view of your quality performance
@@ -34,7 +34,7 @@ const Hero2Desktop: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <Image className={styles.svgviewerOutput21Icon} alt="Intelligent icon" src="/qms/Int.png" width={48} height={48} />
+                <Image className={styles.svgviewerOutput21Icon} alt="Intelligent icon" src="/Int.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Intelligently Automated</b>
                   <div className={styles.text}>Drastically reduce manual effort with our Genesis AI agent for document creation and streamlined workflows for approvals and tasks
@@ -46,7 +46,7 @@ const Hero2Desktop: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <Image className={styles.svgviewerOutput21Icon} alt="Always audit-ready icon" src="/qms/Alw.png" width={48} height={48} />
+                <Image className={styles.svgviewerOutput21Icon} alt="Always audit-ready icon" src="/Alw.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Always Audit-Ready</b>
                   <div className={styles.text}>With centralized records, complete version history, and clear audit trails, you can face any internal or external audit with total confidence
@@ -58,7 +58,7 @@ const Hero2Desktop: FunctionComponent = () => {
           <div className={styles.card}>
             <div className={styles.content}>
               <div className={styles.contentTop}>
-                <Image className={styles.svgviewerOutput21Icon} alt="Collaboration icon" src="/qms/Fos.png" width={48} height={48} />
+                <Image className={styles.svgviewerOutput21Icon} alt="Collaboration icon" src="/Fos.png" width={48} height={48} />
                 <div className={styles.content1}>
                   <b className={styles.heading}>Fosters Collaboration</b>
                   <div className={styles.text}>With clear tasks, intuitive documentation, and accessible QMS processes, every team member actively supports your quality journey.

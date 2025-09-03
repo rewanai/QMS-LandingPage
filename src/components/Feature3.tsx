@@ -22,21 +22,21 @@ const ProBlocksFeatureSection3: FunctionComponent = () => {
           <div className={styles.flexVerticalParent}>
             <div className={styles.flexVertical}>
               <div className={styles.flex}>
-                <Image className={styles.iconWrapper} alt="AI icon" src="/qms/Icon Wrapper.svg" width={48} height={48} />
+                <Image className={styles.iconWrapper} alt="AI icon" src="/Icon Wrapper.svg" width={48} height={48} />
                 <div className={styles.flexVertical1}>
                   <div className={styles.subheading}>AI-Powered Compliance</div>
                   <div className={styles.harnessAdvancedAlgorithms}>Transform complex requirements into audit-ready documents with an AI agent that acts as your personal ISO consultant.</div>
                 </div>
               </div>
               <div className={styles.flex}>
-                <Image className={styles.iconWrapper} alt="Reliability icon" src="/qms/IconWrapper2.svg" width={48} height={48} />
+                <Image className={styles.iconWrapper} alt="Reliability icon" src="/IconWrapper2.svg" width={48} height={48} />
                 <div className={styles.flexVertical1}>
                   <div className={styles.subheading}>Precision & Reliability</div>
                   <div className={styles.harnessAdvancedAlgorithms}>Every clause of the standard streamlined—delivering accurate, consistent, and compliant outputs across your QMS.</div>
                 </div>
               </div>
               <div className={styles.flex}>
-                <Image className={styles.iconWrapper} alt="Scalability icon" src="/qms/IconWrapper3.svg" width={48} height={48} />
+                <Image className={styles.iconWrapper} alt="Scalability icon" src="/IconWrapper3.svg" width={48} height={48} />
                 <div className={styles.flexVertical1}>
                   <div className={styles.subheading}>Fully Scalable</div>
                   <div className={styles.harnessAdvancedAlgorithms}>Whether for startups, SME, or enterprises, Rewan QMS adapts to your needs and industry.</div>
@@ -51,15 +51,15 @@ const ProBlocksFeatureSection3: FunctionComponent = () => {
                   </div>
                   <div className={styles.flexVertical4}>
                     <div className={styles.flex4}>
-                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading4}>Streamline every ISO clause with ease</div>
                     </div>
                     <div className={styles.flex4}>
-                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading4}>AI-powered agent for real-time guidance</div>
                     </div>
                     <div className={styles.flex4}>
-                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                      <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                       <div className={styles.subheading4}>Achieve complete, audit-ready compliance</div>
                     </div>
                   </div>

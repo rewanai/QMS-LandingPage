@@ -30,7 +30,7 @@ const Hero218: FunctionComponent = () => {
           {/* Tagline */}
           <div className={styles.proBlocksSectionTitle}>
             <div className={styles.proBlocksTagline}>
-              <Image className={styles.iconSparkles} alt="Sparkles icon" src="/qms/Sparkles.svg" width={24} height={24} />
+              <Image className={styles.iconSparkles} alt="Sparkles icon" src="/Sparkles.svg" width={24} height={24} />
               <div className={styles.tagline}>AI-Driven Quality Management</div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Hero218: FunctionComponent = () => {
               <div className={styles.button}>
                 <a href="#contact" className={styles.button}>
                   <div className={styles.tagline}>Request a Personalized Demo</div>
-                  <Image className={styles.iconArrowright} alt="Arrow right icon" src="/qms/ArrowRight.svg" width={24} height={24} />
+                  <Image className={styles.iconArrowright} alt="Arrow right icon" src="/ArrowRight.svg" width={24} height={24} />
                 </a>
               </div>
             </div>

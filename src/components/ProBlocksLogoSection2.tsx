@@ -19,21 +19,21 @@ const ProBlocksLogoSection2: FunctionComponent = () => {
           <div className={styles.rowParent}>
             <div className={styles.row}>
               <div className={styles.flex1}>
-                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                 <div className={styles.subheading}>Strategic Partner</div>
               </div>
               <div className={styles.flex1}>
-                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                 <div className={styles.subheading}>AI-Driven Insights</div>
               </div>
             </div>
             <div className={styles.row}>
               <div className={styles.flex1}>
-                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                 <div className={styles.subheading}>All-in-One Platform</div>
               </div>
               <div className={styles.flex1}>
-                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                 <div className={styles.subheading}>No App Juggling</div>
               </div>
             </div>

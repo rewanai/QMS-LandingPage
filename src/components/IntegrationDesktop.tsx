@@ -21,19 +21,19 @@ const IntegrationDesktop: FunctionComponent = () => {
             {/* Cards Grid */}
             <div className={styles.cardsGrid}>
               <div className={styles.card}>
-                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                 <div className={styles.subheading}>Simplified Document Control</div>
               </div>
               <div className={styles.card}>
-                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                 <div className={styles.subheading}>Integrated Quality Systems</div>
               </div>
               <div className={styles.card}>
-                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                 <div className={styles.subheading}>Reduced Consultant Dependency</div>
               </div>
               <div className={styles.card}>
-                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/qms/CircleCheckBig.svg" width={24} height={24} />
+                <Image className={styles.iconCirclecheckbig} alt="Checkmark icon" src="/CircleCheckBig.svg" width={24} height={24} />
                 <div className={styles.subheading}>Improved Team Engagement</div>
               </div>
             </div>
@@ -43,7 +43,7 @@ const IntegrationDesktop: FunctionComponent = () => {
           <div className={styles.rightColumn}>
             <Image
               className={styles.imagePlaceholder}
-              src="/qms/Mhero.png"
+              src="/Mhero.png"
               alt="ISO Certification Illustration"
               width={500}
               height={300}

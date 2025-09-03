@@ -10,7 +10,7 @@ const ProBlocksFooter7: FunctionComponent = () => {
       <div className={styles.container}>
         <div className={styles.grid}>
           <div className={styles.flex}>
-            <Image className={styles.groupIcon} alt="Rewan logo" src="/qms/qms.png" width={100} height={50} />
+            <Image className={styles.groupIcon} alt="Rewan logo" src="/qms.png" width={100} height={50} />
             <div className={styles.flex1}>
               <div className={styles.buildingAiPoweredCyber}>Building AI-powered Cyber Employees to automate operations and liberate human talent for what matters most. Made in Oman for the world.</div>
             </div>
@@ -20,22 +20,22 @@ const ProBlocksFooter7: FunctionComponent = () => {
             <div className={styles.flex3}>
               {/* Instagram Icon */}
               <a href="https://www.instagram.com/rewan_ai/" className={styles.socialMediaIcon} target="_blank" rel="noopener noreferrer">
-                <Image className={styles.vectorIcon} alt="Instagram" src="/qms/Social Media IconI.svg" width={24} height={24} />
+                <Image className={styles.vectorIcon} alt="Instagram" src="/Social Media IconI.svg" width={24} height={24} />
               </a>
 
               {/* Twitter/X Icon */}
               <a href="https://x.com/Rewan_Ai" className={styles.socialMediaIcon} target="_blank" rel="noopener noreferrer">
-                <Image className={styles.vectorIcon2} alt="Twitter/X" src="/qms/Social Media IconX.svg" width={24} height={24} />
+                <Image className={styles.vectorIcon2} alt="Twitter/X" src="/Social Media IconX.svg" width={24} height={24} />
               </a>
 
               {/* YouTube Icon */}
               <a href="https://www.linkedin.com/company/rewanai/?trk=public_post_feed-actor-name&originalSubdomain=om" className={styles.socialMediaIcon} target="_blank" rel="noopener noreferrer">
-                <Image className={styles.vectorIcon3} alt="LinkedIn" src="/qms/Social Media IconY.svg" width={24} height={24} />
+                <Image className={styles.vectorIcon3} alt="LinkedIn" src="/Social Media IconY.svg" width={24} height={24} />
               </a>
 
               {/* WhatsApp Icon */}
               <a href="https://api.whatsapp.com/send/?phone=96876626636&text&type=phone_number&app_absent=0" className={styles.socialMediaIcon1} target="_blank" rel="noopener noreferrer">
-                <Image className={styles.vectorIcon4} alt="WhatsApp" src="/qms/Social Media IconW.svg" width={24} height={24} />
+                <Image className={styles.vectorIcon4} alt="WhatsApp" src="/Social Media IconW.svg" width={24} height={24} />
               </a>
             </div>
           </div>
