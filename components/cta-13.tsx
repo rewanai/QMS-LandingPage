@@ -1,4 +1,4 @@
-import { Button } from "./components/ui/button";
+import { Button } from "@/components/ui/button";
 
 interface Cta13Props {
   heading?: string; // Correct syntax

@@ -2,8 +2,8 @@
 
 import Image from 'next/image';
 import { MenuIcon } from "lucide-react";
-import { Accordion, AccordionContent, AccordionItem } from "./components/ui/accordion";
-import { Button } from "./components/ui/button";
+import { Accordion, AccordionContent, AccordionItem } from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -11,8 +11,8 @@ import {
     NavigationMenuLink,
     NavigationMenuList,
     navigationMenuTriggerStyle,
-} from "./components/ui/navigation-menu";
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./components/ui/sheet";
+} from "@/components/ui/navigation-menu";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 const Navbar5 = () => {
     const features: Array<{ href: string; title: string; description: string }> = [];

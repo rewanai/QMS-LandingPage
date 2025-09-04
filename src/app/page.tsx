@@ -8,14 +8,10 @@ import { ProBlocksPricingSection4 } from "@/components/ContactSection";
 import { Hero218 } from '@/components/Hero218';
 import { FeatureSection2 } from '@/components/FeatureSection2';
 import { FeatureSection22 } from '@/components/FeatureSection2Copy';
-import Hero2Section from "@/components/Hero2Section";        // ✅ keep only the default import
-import IntegrationSection from "@/components/IntegrationSection"; // ✅ add this
+import Hero2Section from "@/components/Hero2Section";
+import IntegrationSection from "@/components/IntegrationSection";
 import Feature3Section from "@/components/Feature3Section";
 import Feature9Section from "@/components/Feature9Section";
-
-
-
-
 
 export default function Home() {
   return (

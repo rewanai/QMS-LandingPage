@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  assetPrefix: '/',       // ✅ Back to root path
+  assetPrefix: '/',
   reactStrictMode: true,
   images: {
     unoptimized: true,
