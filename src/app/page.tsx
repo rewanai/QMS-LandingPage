@@ -1,3 +1,6 @@
+export const dynamic = 'force-static';
+export const dynamicParams = false;
+
 import { Navbar5 } from "@/components/navbar-5";
 import { ProBlocksCTASection6 } from "@/components/ProBlocksCTASection6";
 import { ProBlocksFooter7 } from "@/components/footer-2";
@@ -9,6 +12,7 @@ import Hero2Section from "@/components/Hero2Section";        // ✅ keep only th
 import IntegrationSection from "@/components/IntegrationSection"; // ✅ add this
 import Feature3Section from "@/components/Feature3Section";
 import Feature9Section from "@/components/Feature9Section";
+
 
 
 

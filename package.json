@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "predeploy": "npm run build && rm -rf docs && mkdir -p docs && cp -r out/* docs/ && cp public/CNAME docs/",
+    "deploy": "git add docs && git commit -m 'Deploy to docs folder' && git push"
   },
   "dependencies": {
     "@ai-sdk/react": "^2.0.20",

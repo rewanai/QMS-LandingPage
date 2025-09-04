@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  assetPrefix: '/', // ✅ valid and works with next/font
+  assetPrefix: '/',       // ✅ Back to root path
   reactStrictMode: true,
   images: {
     unoptimized: true,
