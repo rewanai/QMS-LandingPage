@@ -6,29 +6,32 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+      build-and-deploy:
+        runs-on: ubuntu-latest
+        permissions:
+          id-token: write
+          pages: write
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+        steps:
+          - name: Checkout repository
+            uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+          - name: Set up Node.js
+            uses: actions/setup-node@v4
+            with:
+              node-version: '20'
 
-      - name: Install dependencies
-        run: npm install
+          - name: Install dependencies
+            run: npm install
 
-      - name: Build Next.js project
-        run: npm run build
+          - name: Build Next.js project
+            run: npm run build
 
-      - name: Upload production-ready files
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './out'
+          - name: Upload production-ready files
+            uses: actions/upload-pages-artifact@v3
+            with:
+              path: './out'
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          - name: Deploy to GitHub Pages
+            id: deployment
+            uses: actions/deploy-pages@v4
