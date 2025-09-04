@@ -1,6 +1,6 @@
 import { Combine, Gauge, Zap } from "lucide-react";
 
-import { Button } from "./components/ui/button";
+import { Button } from "@/components/ui/button";
 
 const Feature204 = () => {
   return (

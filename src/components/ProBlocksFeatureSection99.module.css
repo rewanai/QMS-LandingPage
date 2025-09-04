@@ -1,0 +1,122 @@
+.proBlocksFeatureSection {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 64px 0px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #8b4097;
+  font-family: 'Inter';
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 24px;
+  box-sizing: border-box;
+  max-width: 672px;
+}
+
+.div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.proBlocksSectionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.proBlocksTagline {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.featureRichLayoutThatContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 30px;
+  line-height: 36px;
+  color: #0a0a0a;
+  text-align: center;
+}
+
+.clearSteps {
+  margin: 0;
+}
+
+.flexVertical {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  text-align: center;
+  font-size: 16px;
+  color: #0a0a0a;
+}
+
+.proBlocksFeatureSection_flexVertical {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.iconWrapper {
+  width: 40px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.flexVertical1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.subheading {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.shortlyDescribeHow {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  color: #737373;
+}

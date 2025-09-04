@@ -1,0 +1,375 @@
+.readyToBuild {
+  width: 712px;
+  position: relative;
+  line-height: 40px;
+  display: inline-block;
+  font-family: '
+__nextjs-Geist'
+;
+}
+
+.letsIdentifyYour {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: '
+__nextjs-Geist'
+;
+  color: #737373;
+}
+
+.proBlocksSectionTitle {
+  width: 576px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: '
+__nextjs-Geist'
+;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.subheading {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-family: '
+__nextjs-Geist'
+;
+  font-weight: 600;
+}
+
+.subheadingWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 20px;
+  color: #0a0a0a;
+}
+
+.placeholdertext {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.input1 {
+  align-self: stretch;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 12px;
+}
+
+.inputWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.input {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.inputParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+.placeholdertext5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.input10 {
+  align-self: stretch;
+  flex: 1;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 12px;
+  min-height: 60px;
+}
+
+.textarea {
+  align-self: stretch;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.button1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.button {
+  align-self: stretch;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  background-color: #341539;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  color: #fafafa;
+}
+
+.subheading1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-family: '
+__nextjs-Geist'
+;
+  text-align: center;
+}
+
+.card {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 14px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px;
+  gap: 16px;
+}
+
+.subheading2 {
+  align-self: stretch;
+  position: relative;
+  font-family: '
+__nextjs-Geist'
+;
+  line-height: 28px;
+}
+
+.subheadingContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.iconCirclecheckbig {
+  width: 16px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  font-family: '
+__nextjs-Geist'
+;
+  flex-shrink: 0;
+}
+
+.subheading3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-family: '
+__nextjs-Geist'
+;
+  line-height: 20px;
+}
+
+.flex1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.flexVertical1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 14px;
+  color: #737373;
+}
+
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.vuesaxlinearlocationIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+
+.phoneIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.iconMail {
+  width: 20px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.flexVertical2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.subheading11 {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: '
+__nextjs-Geist'
+;
+  color: #737373;
+}
+
+.card1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 14px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px;
+  gap: 32px;
+  font-size: 18px;
+  color: #0a0a0a;
+  font-family: '
+__nextjs-Geist'
+;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 1024px;
+}
+
+.flexVertical {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 14px;
+  color: #737373;
+}
+
+.div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 24px;
+  box-sizing: border-box;
+  max-width: 1280px;
+}
+
+.proBlocksPricingSection {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 96px 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 36px;
+  color: #0a0a0a;
+  font-family: '
+__nextjs-Geist'
+;
+}

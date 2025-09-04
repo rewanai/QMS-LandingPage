@@ -1,0 +1,156 @@
+.tagline {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.proBlocksTagline {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.featureRichLayoutThat {
+  align-self: stretch;
+  position: relative;
+  font-size: 41px;
+  font-family: '
+Inter'
+;
+  line-height: 40px;
+  color: #0a0a0a;
+}
+
+.poweredExclusivelyBy {
+  margin: 0;
+}
+
+.addAConciseContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.proBlocksSectionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.iconWrapper {
+  width: 40px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.subheading {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.advancedReasoningAnd {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+
+.flexVertical {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.flex {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #faf8ff;
+  border: 1px solid #f2ecff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+  gap: 20px;
+}
+
+.row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.grid {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 16px;
+  color: #0a0a0a;
+}
+
+.div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.aspectRatioIcon {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 24px;
+  box-sizing: border-box;
+  gap: 64px;
+  max-width: 1280px;
+}
+
+.proBlocksFeatureSection {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 96px 0px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #8b4097;
+  font-family: '
+Inter'
+;
+}

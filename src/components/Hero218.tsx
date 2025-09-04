@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import React, { FunctionComponent } from 'react';
 import Image from 'next/image';
-import { Particles } from "./components/magicui/particles";
+import { Particles } from "@/components/magicui/particles";
 import styles from './ProBlocksHeroSection8.module.css';
 
 const Hero218: FunctionComponent = () => {

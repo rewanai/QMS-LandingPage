@@ -1,0 +1,271 @@
+.proBlocksFeatureSection {
+  width: 100%;
+  position: relative;
+  background-color: #faf8ff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 64px 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  color: #8b4097;
+  font-family: 'Inter';
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 24px;
+  box-sizing: border-box;
+  gap: 48px;
+  max-width: 672px;
+}
+
+.div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.proBlocksSectionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.proBlocksTagline {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.tagline {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.featureRichLayoutThatContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 30px;
+  line-height: 36px;
+  color: #0a0a0a;
+}
+
+.onePlatform {
+  margin: 0;
+}
+
+.addAConcise {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.flexVertical {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  gap: 12px;
+  color: #0a0a0a;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 1024px;
+}
+
+.card {
+  align-self: stretch;
+  border-radius: 14px;
+  background-color: #fff;
+  border: 1px solid #f2ecff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+  gap: 12px;
+}
+
+.iconWrapper {
+  width: 40px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.proBlocksFeatureSection_flexVertical {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.subheading {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.harnessAdvancedAlgorithms {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+
+.proBlocksFeatureSection_flex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1024px;
+  text-align: left;
+  font-size: 18px;
+  color: #0a0a0a;
+}
+
+.card2 {
+  align-self: stretch;
+  border-radius: 14px;
+  background-color: #fff;
+  border: 1px solid #f2ecff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 0px;
+  gap: 23px;
+}
+
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  gap: 8px;
+}
+
+.subheadingWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.subheading2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+
+.flexVertical3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 14px;
+  color: #737373;
+}
+
+.flex1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.iconCirclecheckbig {
+  width: 16px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.subheading3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 20px;
+  gap: 8px;
+}
+
+.row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.flex4 {
+  align-self: stretch;
+  border-radius: 16px;
+  border: 1px solid #f2ecff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 8px;
+}
+
+.subheading7 {
+  width: 225px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
