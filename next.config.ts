@@ -2,7 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  assetPrefix: '/',
+  // This is the key fix for custom domains
+  assetPrefix: './',
   reactStrictMode: true,
   images: {
     unoptimized: true,
