@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: __nextjs-Geist;
+  font-family: Inter;
   color: #0a0a0a;
 }
 
@@ -42,7 +42,7 @@
   font-size: 41px;
   line-height: 1.2;
   font-weight: 700;
-  font-family: __nextjs-Geist;
+  font-family: Inter;
 }
 
 .letsIdentifyYour {

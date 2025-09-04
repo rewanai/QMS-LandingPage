@@ -4,7 +4,7 @@
   line-height: 40px;
   display: inline-block;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
 }
 
@@ -14,7 +14,7 @@ __nextjs-Geist'
   font-size: 16px;
   line-height: 24px;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
   color: #737373;
 }
@@ -25,7 +25,7 @@ __nextjs-Geist'
   flex-direction: column;
   align-items: center;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
   justify-content: flex-start;
   gap: 20px;
@@ -36,7 +36,7 @@ __nextjs-Geist'
   position: relative;
   line-height: 24px;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
   font-weight: 600;
 }
@@ -166,7 +166,7 @@ __nextjs-Geist'
   position: relative;
   line-height: 20px;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
   text-align: center;
 }
@@ -189,7 +189,7 @@ __nextjs-Geist'
   align-self: stretch;
   position: relative;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
   line-height: 28px;
 }
@@ -208,7 +208,7 @@ __nextjs-Geist'
   max-height: 100%;
   overflow: hidden;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
   flex-shrink: 0;
 }
@@ -218,7 +218,7 @@ __nextjs-Geist'
   flex: 1;
   position: relative;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
   line-height: 20px;
 }
@@ -290,7 +290,7 @@ __nextjs-Geist'
   font-size: 14px;
   line-height: 20px;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
   color: #737373;
 }
@@ -310,7 +310,7 @@ __nextjs-Geist'
   font-size: 18px;
   color: #0a0a0a;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
 }
 
@@ -370,6 +370,6 @@ __nextjs-Geist'
   font-size: 36px;
   color: #0a0a0a;
   font-family: '
-__nextjs-Geist'
+Inter'
 ;
 }

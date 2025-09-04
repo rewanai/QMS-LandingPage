@@ -33,7 +33,7 @@
   line-height: 40px;
   color: #0a0a0a;
   text-align: center;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
 }
 
 .proBlocksSectionTitle {
@@ -131,5 +131,5 @@
   text-align: left;
   font-size: 14px;
   color: #737373;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
 }

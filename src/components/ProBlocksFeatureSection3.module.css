@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
 }
 
 .onePlatform {
@@ -24,7 +24,7 @@
   font-size: 36px;
   line-height: 40px;
   color: #0a0a0a;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
 }
 
 .addAConcise {
@@ -41,7 +41,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
 }
 
 .iconWrapper {
@@ -54,7 +54,7 @@
   align-self: stretch;
   position: relative;
   line-height: 24px;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
   font-weight: 600;
 }
 
@@ -62,7 +62,7 @@
   align-self: stretch;
   position: relative;
   line-height: 24px;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
   color: #737373;
 }
 
@@ -102,7 +102,7 @@
   align-self: stretch;
   position: relative;
   line-height: 28px;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
 }
 
 .subheadingWrapper {
@@ -111,7 +111,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
 }
 
 .iconCirclecheckbig {
@@ -125,7 +125,7 @@
 .subheading4 {
   align-self: stretch;
   flex: 1;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
   position: relative;
   line-height: 20px;
 }
@@ -164,7 +164,7 @@
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
   align-items: center;
   justify-content: flex-start;
   text-align: left;
@@ -176,7 +176,7 @@
   position: relative;
   line-height: 24px;
   font-weight: 600;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
   display: inline-block;
 }
 
@@ -187,7 +187,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #737373;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
 }
 
 .flex7 {

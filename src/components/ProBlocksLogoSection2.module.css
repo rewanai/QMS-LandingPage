@@ -17,7 +17,7 @@
   position: relative;
   font-size: 36px;
   line-height: 40px;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
   color: #0a0a0a;
 }
 
@@ -32,7 +32,7 @@
   width: 225px;
   line-height: 24px;
   font-weight: 600;
-  font-family: '__nextjs-Geist';
+  font-family: 'Inter';
   color: #0a0a0a;
 }
 
