@@ -1,22 +1,8 @@
 // src/app/layout.tsx
-import { Inter as FontSans } from "next/font/google";
-import { Anton } from "next/font/google"; // Import Anton font
-import '@/assets/fonts/fonts.css'
+import '@/assets/fonts/fonts.css';
 import "./globals.css";
 
 import { cn } from "@/lib/utils";
-
-const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
-
-const anton = Anton({
-  // Configure Anton font
-  subsets: ["latin"],
-  weight: "400", // Anton typically only has the 400 weight
-  variable: "--font-anton",
-});
 
 export default function RootLayout({
   children,
@@ -25,11 +11,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/*
+          This is the correct way to import Google Fonts for a static export.
+          The next/font module is incompatible with the assetPrefix setting.
+        */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+      </head>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
-          anton.variable // Add Anton's CSS variable here
+          "min-h-screen bg-background font-sans antialiased"
         )}
       >
         {children}
